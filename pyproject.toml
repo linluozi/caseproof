@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "caseproof"
+version = "0.1.0"
+description = "Certify differential-test case counts by content hash, not loop iterations"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "linluozi" }]
+keywords = ["differential-testing", "fuzzing", "benchmark", "reproducibility"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/linluozi/caseproof"
+
+[tool.setuptools]
+packages = ["caseproof"]
